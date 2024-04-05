@@ -11,7 +11,7 @@ from io import StringIO
 import time
 import shutil
 
-st.set_page_config(page_title="Multi-LLM Chatbot", page_icon=":robot_face:", layout="wide", initial_sidebar_state="expanded", theme="dark")
+st.set_page_config(page_title="Multi-LLM Chatbot", page_icon=":robot_face:", layout="wide")
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODELS_API_URL = "https://openrouter.ai/api/v1/models"
